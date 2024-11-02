@@ -15,19 +15,21 @@ This project is a responsive educational platform built with **Next.js**, showca
 
 ---
 
-## 📂 Project Structure
-
-- **`app/page.js`**: Core page component, updated live as you edit.
-- **`components/`**: Modular UI components used across the app.
-- **`public/`**: Assets like images and icons for the project.
-
----
-
 ## ⚙️ Getting Started
 
-### Step 1: Clone the Repository
+To get started, clone the repository, install dependencies, and start the development server with the following commands:
 
 ```bash
+# Step 1: Clone the Repository
 git clone https://github.com/ANAVADH/Edu_Demo.git
 cd Edu_Demo
 
+# Step 2: Install Dependencies
+npm install
+
+# Step 3: Run the Development Server
+npm run dev
+# Alternative options
+# yarn dev
+# pnpm dev
+# bun dev

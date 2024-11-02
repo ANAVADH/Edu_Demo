@@ -1,15 +1,14 @@
 import React from 'react';
 
-function CardTestimonial({ isDark , slNo }) {
+function CardTestimonial({ isDark, slNo }) {
   return (
     <div>
       <a
         href="#"
-        className={`block max-w-sm p-6 border rounded-lg shadow hover:bg-gray-100 ${
-          isDark
+        className={`block max-w-sm p-6 border rounded-lg shadow hover:bg-gray-100 ${isDark
             ? 'bg-darkCardBg border-gray-700 text-white hover:bg-gray-700'
             : 'bg-cardbg border-gray-200 text-gray-900'
-        }`}
+          }`}
       >
         <h5 className="mb-2 text-2xl font-bold tracking-tight">{slNo}</h5>
         <hr className="w-80 h-0.5 my-4 bg-gray-400 rounded md:my-6 dark:bg-gray-700" />

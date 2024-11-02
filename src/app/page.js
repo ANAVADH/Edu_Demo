@@ -7,8 +7,6 @@ import Insights from "./pages/Insights/Insights";
 import Portfolio from "./pages/Portfolio/Portfolio";
 import Testimonials from "./pages/Testimonials/Testimonials";
 
-
-
 export default function Home() {
   return (
     <div className="relative">
